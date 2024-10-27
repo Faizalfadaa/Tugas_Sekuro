@@ -83,16 +83,16 @@ class Pull:
                     print('-----------------------')
                     break
             elif pull == 'no':
-                print('-----------------------')
+                print('=======================')
                 print('Why did you stop gambling??!')
-                print('-----------------------')
+                print('=======================')
                 break
             else:
                 print('Invalid input!')
 
 pity_4_star = 0
 pity_5_star = 0
-primogem = 32000
+primogem = int(input('How many primogems do you have?'))
 
 gacha = Gatcha({}, {}, pity_5_star, pity_4_star, primogem)
 

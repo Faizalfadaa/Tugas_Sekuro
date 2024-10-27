@@ -7,7 +7,8 @@
     - pity_5_star dan pity_4_star: Hitungan pity untuk 5 star dan 4 star
     - primogem: Melacak jumlah primogem yang tersedia
 
-    pity adalah mekanisme yang menjamin untuk mendapatkan item dengan probability dan rarity tertentu setelah sejumlah pull yang tidak memberikan item tersebu
+    pity adalah mekanisme yang menjamin untuk mendapatkan item dengan probability dan rarity tertentu setelah sejumlah pull yang tidak memberikan item tersebut
+    primogem adalah currency yaang digunakan untuk gatcha
     increase_pity() = Menambah hitungan pity.
     reset_pity_4_star() = Mereset hitungan pity 4 star.
     reset_pity_5_star() = Mereset hitungan pity 5 star.
